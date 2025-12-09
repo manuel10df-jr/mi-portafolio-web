@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio || Manuel Díaz</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <!-- Tailwind CDN -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<!-- BODY -->
+
+<body class="font-sans bg-white dark:bg-[#0d0d0d] text-black dark:text-white transition-colors duration-300 overflow-auto">
+<!-- HEADER -->
+  <header class="fixed top-0 left-0 w-full backdrop-blur-xl bg-white/60 dark:bg-black/40 shadow-sm z-50 transition-all duration-300">
+    <nav class="max-w-6xl mx-auto flex items-center justify-between py-4 px-6">
+      <div class="flex items-center cursor-pointer hover:scale-105 transition-transform duration-300">
+        <h1 class="text-2xl font-bold">
+          Manuel<span class="text-cyan-400">Dev</span>
+        </h1>
+        <i class="fas fa-code text-white text-2xl ml-2"></i>
+      </div>
+          <ul class="hidden md:flex gap-8 text-lg font-medium">
+            <li><a href="/index.html" class="link">Inicio</a></li>
+            <li><a href="/habilidades.html" class="link">Habilidades</a></li>
+            <li><a href="/musico.html" class="link">Músico</a></li>
+          </ul>
+  </header>
+<section id="sobre-mi" class="w-full py-20 px-6">
+  <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-5 gap-10 items-start">
+    
+    <div class="col-span-1 lg:col-span-2 flex flex-col items-center justify-start pt-8">
+      
+      <div class="p-4 bg-gray-100 dark:bg-[#1a1a1a] rounded-3xl shadow-2xl transition duration-500 hover:shadow-cyan-500/40 transform hover:scale-[1.02] border-4 border-cyan-400/50">
+        <img src="/img/school.png" alt="Foto de perfil de Manuel" class="w-72 h-72 object-cover rounded-2xl"/>
+      </div>
+        
+      <div class="mt-8">
+        <a href="/docs/curriculum.pdf" download 
+           class="px-8 py-3 bg-cyan-500 hover:bg-cyan-600 transition rounded-xl text-white text-md font-medium shadow-lg shadow-cyan-500/30">
+          <i class="fas fa-download mr-2"></i> Descargar CV
+        </a>
+      </div>
+    </div>
+
+    <div class="col-span-1 lg:col-span-3 space-y-7 text-black dark:text-white">
+      
+      <h2 class="text-4xl font-extrabold pb-3 border-b border-gray-200 dark:border-gray-700">
+        Un vistazo a <span class="text-cyan-400">mi trayectoria</span>
+      </h2>
+
+      <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+        Desarrollador web con una base sólida y experiencia práctica en HTML, CSS y JavaScript. Apasionado por la creación de interfaces de usuario responsivas y funcionales. Busco aplicar mis habilidades de programación y mi conocimiento en el ciclo de desarrollo de software para contribuir como Desarrollador Frontend Junior. Demuestro proactividad en la resolución de problemas complejos y adaptabilidad a las metodologías ágiles.
+      </p>
+
+      <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+        Mi gusto por el diseño UI me ha llevado a especializarme en el stack moderno. Soy un profesional, que no teme a los desafíos y siempre busca la manera más eficiente y limpia de resolver un problema, priorizando la calidad.
+      </p>
+
+      <div class="pt-2">
+        <h4 class="text-xl font-bold mb-4 text-cyan-400">Habilidades Clave:</h4>
+        <div class="flex flex-wrap gap-4 text-sm font-medium">
+          <span class="skill-pill">
+            <i class="fas fa-lightbulb mr-2"></i> Solución de Problemas
+          </span>
+          <span class="skill-pill">
+            <i class="fas fa-handshake mr-2"></i> Trabajo en Equipo
+          </span>
+          <span class="skill-pill">
+            <i class="fas fa-clock mr-2"></i> Gestión de Tiempo
+          </span>
+          <span class="skill-pill">
+            <i class="fas fa-rocket mr-2"></i> Aprendizaje Rápido
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="max-w-6xl mx-auto pt-16 mt-16 border-t border-gray-200 dark:border-gray-700">
+    <h3 class="text-2xl font-bold text-center mb-8 text-black dark:text-white">Mi Impacto en Números</h3>    
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+        
+        <div class="stat-box">
+            <p class="text-5xl font-extrabold text-cyan-400">4+</p>
+            <p class="text-gray-700 dark:text-gray-300 mt-1">Años de Programación</p>
+        </div>
+        
+        <div class="stat-box">
+            <p class="text-5xl font-extrabold text-cyan-400">3+</p>
+            <p class="text-gray-700 dark:text-gray-300 mt-1">Proyectos Finalizados</p>
+        </div>
+        
+        <div class="stat-box">
+            <p class="text-5xl font-extrabold text-cyan-400">90%</p>
+            <p class="text-gray-700 dark:text-gray-300 mt-1">Éxito en Cumplimiento</p>
+        </div>
+
+        <div class="stat-box">
+            <p class="text-5xl font-extrabold text-cyan-400">5</p>
+            <p class="text-gray-700 dark:text-gray-300 mt-1">Tecnologías Clave</p>
+        </div>
+    </div>
+  </div>
+</section>
+<div class="mt-12 bg-cyan-400/10 dark:bg-cyan-400/5 p-6 rounded-lg flex flex-col md:flex-row items-center justify-between shadow-inner">
+        <p class="text-xl font-semibold text-cyan-600 dark:text-cyan-400 mb-4 md:mb-0">
+            ¿Interesado en mi trabajo? Explora mis proyectos.
+        </p>
+        <a href="#proyectos" 
+           class="px-6 py-3 bg-cyan-500 hover:bg-cyan-600 transition rounded-xl text-white text-md font-medium shadow-lg flex items-center">
+            Ver Proyectos <i class="fas fa-arrow-right ml-2"></i>
+        </a>
+    </div>
+<script src="./js/main.js"></script>
+</body>
+</html>

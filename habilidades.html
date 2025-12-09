@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio || Manuel Díaz</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <!-- Tailwind CDN -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<!-- BODY -->
+<body class="font-sans bg-white dark:bg-[#0d0d0d] text-black dark:text-white transition-colors duration-300 overflow-auto">
+<!-- HEADER -->
+  <header class="fixed top-0 left-0 w-full backdrop-blur-xl bg-white/60 dark:bg-black/40 shadow-sm z-50 transition-all duration-300">
+    <nav class="max-w-6xl mx-auto flex items-center justify-between py-4 px-6">
+      <div class="flex items-center cursor-pointer hover:scale-105 transition-transform duration-300">
+        <h1 class="text-2xl font-bold">
+          Manuel<span class="text-cyan-400">Dev</span>
+        </h1>
+        <i class="fas fa-code text-white text-2xl ml-2"></i>
+      </div>
+          <ul class="hidden md:flex gap-8 text-lg font-medium">
+            <li><a href="/index.html" class="link">Inicio</a></li>
+            <li><a href="/sobre-mi.html" class="link">Sobre Mí</a></li>
+            <li><a href="/musico.html" class="link">Músico</a></li>
+          </ul>
+  </header>
+
+  <section id="habilidades" class="w-full py-20 px-6">
+    <div class="max-w-6xl mx-auto">
+        <h2 class="text-4xl font-extrabold text-center mb-16 text-black dark:text-white">
+            Mis <span class="text-cyan-400">Habilidades</span>
+        </h2>
+
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8">
+
+            <div class="flex flex-col items-center p-6 bg-gray-100 dark:bg-[#1a1a1a] rounded-xl shadow-lg hover:scale-[1.05] transition-transform duration-300 border-b-4 border-orange-500">
+                <i class="fab fa-html5 text-5xl text-orange-500 mb-3"></i>
+                <span class="text-lg font-semibold dark:text-white">HTML5</span>
+                <span class="text-sm text-gray-500 dark:text-gray-400">Lenguaje Markup</span>
+            </div>
+
+            <div class="flex flex-col items-center p-6 bg-gray-100 dark:bg-[#1a1a1a] rounded-xl shadow-lg hover:scale-[1.05] transition-transform duration-300 border-b-4 border-blue-500">
+                <i class="fab fa-css3-alt text-5xl text-blue-500 mb-3"></i>
+                <span class="text-lg font-semibold dark:text-white">CSS3</span>
+                <span class="text-sm text-gray-500 dark:text-gray-400">Estilización</span>
+            </div>
+
+            <div class="flex flex-col items-center p-6 bg-gray-100 dark:bg-[#1a1a1a] rounded-xl shadow-lg hover:scale-[1.05] transition-transform duration-300 border-b-4 border-yellow-500">
+                <i class="fab fa-js-square text-5xl text-yellow-500 mb-3"></i>
+                <span class="text-lg font-semibold dark:text-white">JavaScript</span>
+                <span class="text-sm text-gray-500 dark:text-gray-400">Lógica</span>
+            </div>
+
+            <div class="flex flex-col items-center p-6 bg-gray-100 dark:bg-[#1a1a1a] rounded-xl shadow-lg hover:scale-[1.05] transition-transform duration-300 border-b-4 border-cyan-400">
+                <i class="fas fa-wind text-5xl text-cyan-400 mb-3"></i>
+                <span class="text-lg font-semibold dark:text-white">Tailwind CSS</span>
+                <span class="text-sm text-gray-500 dark:text-gray-400">Framework CSS</span>
+            </div>
+
+            <div class="flex flex-col items-center p-6 bg-gray-100 dark:bg-[#1a1a1a] rounded-xl shadow-lg hover:scale-[1.05] transition-transform duration-300 border-b-4 border-blue-400">
+                <i class="fab fa-react text-5xl text-blue-400 mb-3"></i>
+                <span class="text-lg font-semibold dark:text-white">React</span>
+                <span class="text-sm text-gray-500 dark:text-gray-400">Librería JS</span>
+            </div>
+            
+            <div class="flex flex-col items-center p-6 bg-gray-100 dark:bg-[#1a1a1a] rounded-xl shadow-lg hover:scale-[1.05] transition-transform duration-300 border-b-4 border-green-500">
+                <i class="fab fa-node-js text-5xl text-green-500 mb-3"></i>
+                <span class="text-lg font-semibold dark:text-white">Node.js</span>
+                <span class="text-sm text-gray-500 dark:text-gray-400">Runtime JS</span>
+            </div>
+            
+            <div class="flex flex-col items-center p-6 bg-gray-100 dark:bg-[#1a1a1a] rounded-xl shadow-lg hover:scale-[1.05] transition-transform duration-300 border-b-4 border-black dark:border-white">
+                <i class="fab fa-github text-5xl text-black dark:text-white mb-3"></i>
+                <span class="text-lg font-semibold dark:text-white">GitHub</span>
+                <span class="text-sm text-gray-500 dark:text-gray-400">Control de Versiones</span>
+            </div>
+
+            <div class="flex flex-col items-center p-6 bg-gray-100 dark:bg-[#1a1a1a] rounded-xl shadow-lg hover:scale-[1.05] transition-transform duration-300 border-b-4 border-red-600">
+                <i class="fab fa-git-alt text-5xl text-red-600 mb-3"></i>
+                <span class="text-lg font-semibold dark:text-white">Git</span>
+                <span class="text-sm text-gray-500 dark:text-gray-400">Control de Versiones</span>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<div class="max-w-6xl mx-auto pt-16 mt-16 border-t border-gray-200 dark:border-gray-700">
+    <h3 class="text-3xl font-extrabold text-center mb-10 text-black dark:text-white">
+        Herramientas y Flujo de Trabajo
+    </h3>
+
+    <div class="mb-12">
+        <h4 class="text-xl font-bold text-cyan-500 mb-6 text-center">Gestión de Proyectos y Metodologías</h4>
+        <div class="flex flex-wrap justify-center gap-8">
+            
+            <div class="tool-icon-box">
+                <i class="fas fa-tasks text-4xl text-green-500"></i>
+                <span class="text-sm font-medium mt-2">Scrum / Ágil</span>
+            </div>
+            <div class="tool-icon-box">
+                <i class="fab fa-trello text-4xl text-blue-600"></i>
+                <span class="text-sm font-medium mt-2">Trello / Kanban</span>
+            </div>
+            <div class="tool-icon-box">
+                <i class="fas fa-terminal text-4xl text-gray-700 dark:text-gray-300"></i>
+                <span class="text-sm font-medium mt-2">CLI / Shell</span>
+            </div>
+            <div class="tool-icon-box">
+                <i class="fas fa-bezier-curve text-4xl text-pink-600"></i>
+                <span class="text-sm font-medium mt-2">Diseño UX/UI</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="mb-6">
+        <h4 class="text-xl font-bold text-cyan-500 mb-6 text-center">Entornos y Testing</h4>
+        <div class="flex flex-wrap justify-center gap-8">
+            
+            <div class="tool-icon-box">
+                <i class="fas fa-code text-4xl text-blue-500"></i>
+                <span class="text-sm font-medium mt-2">VS Code</span>
+            </div>
+            <div class="tool-icon-box">
+                <i class="fas fa-tools text-4xl text-yellow-600"></i> 
+                <span class="text-sm font-medium mt-2">DevTools</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio || Manuel Díaz</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <!-- Tailwind CDN -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<!-- BODY -->
+<body class="font-sans bg-white dark:bg-[#0d0d0d] text-black dark:text-white transition-colors duration-300 overflow-auto">
+<!-- HEADER -->
+  <header class="fixed top-0 left-0 w-full backdrop-blur-xl bg-white/60 dark:bg-black/40 shadow-sm z-50 transition-all duration-300">
+    <nav class="max-w-6xl mx-auto flex items-center justify-between py-4 px-6">
+      <div class="flex items-center cursor-pointer hover:scale-105 transition-transform duration-300">
+        <h1 class="text-2xl font-bold">
+          Manuel<span class="text-cyan-400">Dev</span>
+        </h1>
+        <i class="fas fa-code text-white text-2xl ml-2"></i>
+      </div>
+          <ul class="hidden md:flex gap-8 text-lg font-medium">
+            <li><a href="/sobre-mi.html" class="link">Sobre Mí</a></li>
+            <li><a href="/habilidades.html" class="link">Habilidades</a></li>
+            <li><a href="/musico.html" class="link">Músico</a></li>
+          </ul>
+  </header>
+<!-- HERO -->
+  <section id="inicio" class="min-h-[120vh] flex flex-col md:flex-row items-center justify-center pt-20">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+      <div class="space-y-6">
+          <div class="flex items-center space-x-3 text-lg pb-3">
+            <div class="flex items-center space-x-1.5 px-3 py-1 bg-gray-100 dark:bg-[#1a1a1a] rounded-full shadow-sm">
+                <i class="fas fa-map-marker-alt text-base text-cyan-500"></i>
+                <span class="font-medium text-gray-800 dark:text-gray-300 text-base">
+                    San Pedro, Coah.
+                </span>
+            </div>
+            <div class="flex items-center space-x-1.5 px-3 py-1 bg-green-100 dark:bg-green-900 rounded-full">
+                <span class="relative flex h-2 w-2">
+                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                    <span class="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
+                </span>
+                <span class="font-medium text-green-700 dark:text-green-300 text-sm">
+                    Abierto a Remoto
+                </span>
+            </div>
+        </div>
+            <h2 class="text-5xl md:text-6xl font-bold leading-tight">
+              Hola, soy <span class="text-cyan-400">Manuel</span><br>
+              Desarrollador Web Frontback Jr.
+            </h2>
+              <p class="text-gray-400 text-lg leading-relaxed">
+              Creo aplicaciones modernas, rápidas y funcionales. Dominio de HTML, CSS, JavaScript y Tailwind.
+              </p>
+          <div class="flex gap-4 pt-4">
+            <a href="#proyectos" class="px-6 py-3 bg-cyan-500 hover:bg-cyan-600 transition rounded-xl text-white text-sm font-medium shadow-lg shadow-indigo-500/20">Ver proyectos</a>
+            <a href="/contacto.html" class="px-6 py-3 border border-gray-500 hover:border-white transition rounded-xl text-sm font-medium">Contáctame</a>
+          </div>
+      </div>
+        <div class="relative flex justify-center md:justify-end z-10">
+          <img src="/img/foto.png" alt="Ilustración desarrollador" class="w-72 md:w-96 h-auto object-contain">
+          <div class="rgb-lights inset-0"></div>
+          <div class="shadow inset-0"></div>
+        </div>
+    </div>
+  </section>
+<!-- EDUCACIÓN -->
+<section id="educacion" class="py-24 bg-white dark:bg-[#0d0d0d]">
+  <div class="max-w-6xl mx-auto px-6">
+    <h2 class="text-4xl font-bold text-center mb-12">
+      Mi <span class="text-cyan-400">Educación</span>
+    </h2>
+    <div class="grid md:grid-cols-2 gap-10">
+      <div class="p-8 rounded-xl bg-gray-100 dark:bg-gray-800 border border-gray-300 dark:border-gray-700 hover:border-cyan-400 transition-all duration-300 shadow-lg">
+        
+        <div class="flex items-center gap-3 mb-4">
+          <i class="fas fa-graduation-cap text-cyan-400 text-2xl"></i>
+          <h3 class="text-2xl font-semibold text-cyan-400">Ingeniería en Sistemas Computacionales</h3>
+        </div>
+
+        <p class="text-gray-600 dark:text-gray-400 text-sm mb-4">
+          Tec San Pedro &nbsp;•&nbsp; 2018 – 2025
+        </p>
+
+
+        <p class="text-gray-700 dark:text-gray-300 leading-relaxed mt-3">
+          Conocimiento en seguridad informática y redes, con capacidad para resolver problemas
+          complejos de manera eficiente y efectiva.
+        </p>
+
+        <p class="text-gray-700 dark:text-gray-300 leading-relaxed mt-3">
+          Participación en proyectos de desarrollo de software y programación web, trabajando
+          en equipo y cumpliendo con los plazos establecidos.
+        </p>
+      </div>
+
+      <div class="p-8 rounded-xl bg-gray-100 dark:bg-gray-800 border border-gray-300 dark:border-gray-700 hover:border-cyan-400 transition-all duration-300 shadow-lg">
+        
+        <div class="flex items-center gap-3 mb-4">
+          <i class="fas fa-laptop-code text-cyan-400 text-2xl"></i>
+          <h3 class="text-2xl font-semibold text-cyan-400">Desarrollo Web Fullstack</h3>
+        </div>
+
+        <p class="text-gray-600 dark:text-gray-400 text-sm mb-4">
+          Udemy / DevWebCamp &nbsp;•&nbsp; 2025
+        </p>
+
+        <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
+          Aprendizaje práctico creando aplicaciones reales con HTML, CSS, JavaScript,
+          APIs, autenticación.
+        </p>
+        <p class="text-gray-700 dark:text-gray-300 leading-relaxed mt-3">
+          Fundamentos sólidos en POO con Java y C++, estructuras de datos, desarrollo de bases
+          de datos relacionales (SQL) y gestión de proyectos con metodologías Ágiles (Scrum).
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- PROYECTOS -->
+<section id="proyectos" class="w-full py-20 px-6 bg-gray-50 dark:bg-[#111111]">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-4xl font-extrabold text-center mb-16 text-black dark:text-white">
+      Mis <span class="text-cyan-400">Proyectos</span>
+    </h2>
+    <div class="grid grid-cols-1 gap-12 lg:grid-cols-2">
+      <div class="bg-white dark:bg-[#1a1a1a] rounded-2xl shadow-2xl p-6 flex flex-col hover:shadow-cyan-500/40 transition duration-300">
+        <h3 class="text-2xl font-bold text-cyan-500 mb-2">Loading...</h3>
+        <p class="text-gray-600 dark:text-gray-400 mb-4">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+        </p>
+        
+        <div class="flex flex-wrap gap-2 mb-6">
+          <span class="tech-tag">React</span>
+          <span class="tech-tag">Node.js</span>
+          <span class="tech-tag">MongoDB</span>
+          <span class="tech-tag">Tailwind CSS</span>
+        </div>
+
+        <div class="flex gap-4 mt-auto">
+          <a href="#" class="btn-primary">
+            <i class="fas fa-eye mr-2"></i> Ver Demo
+          </a>
+          <a href="#" class="btn-secondary">
+            <i class="fab fa-github mr-2"></i> Código
+          </a>
+        </div>
+      </div>
+      
+      <div class="bg-white dark:bg-[#1a1a1a] rounded-2xl shadow-2xl p-6 flex flex-col hover:shadow-cyan-500/40 transition duration-300">
+        <h3 class="text-2xl font-bold text-cyan-500 mb-2">Loading...</h3>
+        <p class="text-gray-600 dark:text-gray-400 mb-4">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+        </p>
+
+        <div class="flex flex-wrap gap-2 mb-6">
+          <span class="tech-tag">HTML5</span>
+          <span class="tech-tag">CSS3</span>
+          <span class="tech-tag">JavaScript</span>
+          <span class="tech-tag">Tailwind CSS</span>
+        </div>
+
+        <div class="flex gap-4 mt-auto">
+          <a href="#" class="btn-primary">
+            <i class="fas fa-eye mr-2"></i> Ver Demo
+          </a>
+          <a href="#" class="btn-secondary">
+            <i class="fab fa-github mr-2"></i> Código
+          </a>
+        </div>
+      </div>
+      </div>
+  </div>
+</section>
+<!-- FOOTER -->
+<footer class="bg-white dark:bg-[#1a1a1a] border-t border-gray-200 dark:border-gray-800 py-12 px-6">
+    <div class="max-w-6xl mx-auto">
+        
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-10 border-b border-gray-200 dark:border-gray-700 pb-8 mb-8">
+            
+            <div class="col-span-1 md:col-span-2 space-y-4">
+                <a href="#inicio" class="flex items-center cursor-pointer">
+                    <h1 class="text-3xl font-bold hover:scale-105 transition-transform duration-300">
+                        Manuel<span class="text-cyan-400">Dev</span>
+                    </h1>
+                    <i class="fas fa-code text-white text-3xl ml-2"></i>
+                </a>
+                <p class="text-gray-500 dark:text-gray-400 text-sm max-w-sm">
+                    Ingeniero en Sistemas Computacionales.
+                </p>
+                <div class="flex space-x-4 pt-2">
+                    <a href="https://github.com/tu-usuario" target="_blank" class="text-gray-500 dark:text-gray-400 hover:text-cyan-400 transition-colors duration-300">
+                        <i class="fab fa-github text-2xl"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/tu-usuario" target="_blank" class="text-gray-500 dark:text-gray-400 hover:text-cyan-400 transition-colors duration-300">
+                        <i class="fab fa-linkedin-in text-2xl"></i>
+                    </a>
+                    <a href="mailto:tu.email@ejemplo.com" class="text-gray-500 dark:text-gray-400 hover:text-cyan-400 transition-colors duration-300">
+                        <i class="fas fa-envelope text-2xl"></i>
+                    </a>
+                </div>
+            </div>   
+            <div>
+                <h4 class="text-lg font-semibold mb-4 text-black dark:text-white">Navegación</h4>
+                <ul class="space-y-3">
+                    <li><a href="#inicio" class="text-gray-500 dark:text-gray-400 hover:text-cyan-400 transition-colors duration-300">Inicio</a></li>
+                    <li><a href="#educacion" class="text-gray-500 dark:text-gray-400 hover:text-cyan-400 transition-colors duration-300">Educación</a></li>
+                    <li><a href="#proyectos" class="text-gray-500 dark:text-gray-400 hover:text-cyan-400 transition-colors duration-300">Proyectos</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-lg font-semibold mb-4 text-black dark:text-white">Secciones</h4>
+                <ul class="space-y-3">
+                    <li><a href="#sobre-mi" class="text-gray-500 dark:text-gray-400 hover:text-cyan-400 transition-colors duration-300">Habilidades</a></li>
+                    <li><a href="#contacto" class="text-gray-500 dark:text-gray-400 hover:text-cyan-400 transition-colors duration-300">Contacto</a></li>
+                    <li><a href="#musico" class="text-gray-500 dark:text-gray-400 hover:text-cyan-400 transition-colors duration-300">Músico</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-center md:text-left pt-4">
+            <p class="text-sm text-gray-500 dark:text-gray-400">
+                © <span id="current-year">2025</span> Manuel Díaz Jr. Todos los derechos reservados.
+            </p>
+        </div>
+    </div>
+</footer>
+<script src="./js/main.js"></script>
+</body>
+</html>

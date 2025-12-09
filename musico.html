@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio || Manuel Díaz</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <!-- Tailwind CDN -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<!-- BODY -->
+
+<body class="font-sans bg-white dark:bg-[#0d0d0d] text-black dark:text-white transition-colors duration-300 overflow-auto">
+<!-- HEADER -->
+  <header class="fixed top-0 left-0 w-full backdrop-blur-xl bg-white/60 dark:bg-black/40 shadow-sm z-50 transition-all duration-300">
+    <nav class="max-w-6xl mx-auto flex items-center justify-between py-4 px-6">
+      <div class="flex items-center cursor-pointer hover:scale-105 transition-transform duration-300">
+        <h1 class="text-2xl font-bold">
+          Manuel<span class="text-cyan-400">Dev</span>
+        </h1>
+        <i class="fas fa-code text-white text-2xl ml-2"></i>
+      </div>
+          <ul class="hidden md:flex gap-8 text-lg font-medium">
+            <li><a href="/index.html" class="link">Inicio</a></li>
+            <li><a href="/sobre-mi.html" class="link">Sobre Mí</a></li>
+            <li><a href="/habilidades.html" class="link">Habilidades</a></li>
+          </ul>
+  </header>
+
+<section id="musico" class="w-full py-20 px-6 bg-gray-50 dark:bg-[#1a1a1a]">
+    <div class="max-w-6xl mx-auto">
+        <h2 class="text-4xl font-extrabold text-center mb-16 text-black dark:text-white">
+            Mi Faceta <span class="text-cyan-400">Creativa</span>
+        </h2>
+
+        <div class="grid grid-cols-1 lg:grid-cols-5 gap-12 items-start">
+            
+            <div class="col-span-1 lg:col-span-2 space-y-6 lg:sticky lg:top-24">
+
+                <div class="relative w-64 h-64 mx-auto lg:mx-0 mb-10">
+                    <div class="absolute inset-0 bg-cyan-400/50 rounded-full transform translate-x-2 translate-y-2 shadow-2xl transition duration-500 hover:translate-x-0 hover:translate-y-0"></div>
+                    
+                    <div class="absolute inset-0 p-1 bg-white dark:bg-[#1a1a1a] rounded-full shadow-lg border-4 border-cyan-500 z-10 transition duration-500 hover:shadow-cyan-500/50">
+                        <img src="/img/hat.png" alt="Manuel tocando la guitarra" class="w-full h-full object-cover rounded-full"/>
+                    </div>
+                </div>
+                
+                <h3 class="text-3xl font-bold text-black dark:text-white">Ritmo y Estructura</h3>
+                
+                <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+                <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
+                </p>
+
+                <h3 class="text-xl font-bold text-cyan-500 pt-4">Plataformas:</h3>
+                
+                <div class="flex space-x-6">
+                    <a href="https://open.spotify.com/user/366bc50lg4wqvuioemf6g6sc0?si=eaa6a332d38841c6" target="_blank" class="platform-link">
+                        <i class="fab fa-spotify text-3xl"></i>
+                        <span class="text-sm font-medium">Spotify</span>
+                    </a>
+                    <a href="[URL_YOUTUBE]" target="_blank" class="platform-link">
+                        <i class="fab fa-youtube text-3xl"></i>
+                        <span class="text-sm font-medium">YouTube</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-span-1 lg:col-span-3 space-y-8">
+                <h3 class="text-2xl font-bold text-center text-black dark:text-white">Proyectos Destacados</h3>
+
+                <div class="music-project-card">
+                    <div class=" w-32 h-32 rounded-lg overflow-hidden shadow-lg border border-gray-300 dark:border-gray-700">
+                        <img src="/img/musica/trc.jpg" alt="Portada EP Nocturno" class="w-full h-full object-cover">
+                    </div>
+                    <div class="ml-6">
+                        <p class="text-xl font-bold text-cyan-500">Integrante del Conjunto TRC</p>
+                        <p class="text-sm text-gray-500 dark:text-gray-400 mb-3">Norteño-Sax / Desde: 2023</p>
+                        <p class="text-gray-700 dark:text-gray-300">
+                            Acordeonista
+                        </p>
+                        <a href="https://open.spotify.com/intl-es/artist/38DFd6ET7aJsW8k2wLJqVc?si=MrXK1spRTbOadmL9X97RKQ" target="_blank" class="text-sm mt-2 inline-flex items-center text-cyan-600 hover:text-cyan-400 font-semibold">
+                            Escuchar en Spotify <i class="fab fa-spotify ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="music-project-card">
+                    <div class="w-32 h-32 rounded-lg overflow-hidden shadow-lg border border-gray-300 dark:border-gray-700">
+                        <img src="/img/musica/espaldas.jpg" alt="Miniatura Colaboración en Vivo" class="w-full h-full object-cover">
+                    </div>
+                    <div class="ml-6">
+                        <p class="text-xl font-bold text-cyan-500">Video: Cuando Estás de Espaldas</p>
+                        <p class="text-sm text-gray-500 dark:text-gray-400 mb-3">Video Official / Año: 2025</p>
+                        <p class="text-gray-700 dark:text-gray-300">
+                            Video grabado en Luchanas, Coah. Canción inédita en la que me tocó participar grabando el acordeon y segundas voces.
+                        </p>
+                        <a href="https://youtu.be/SWl5VgMqC2M?si=vOyUaCUcbGyiM2qW" target="_blank" class="text-sm mt-2 inline-flex items-center text-cyan-600 hover:text-cyan-400 font-semibold">
+                            Ver en YouTube <i class="fab fa-youtube ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                
+               <div class="mt-16 pt-10 border-t border-gray-200 dark:border-gray-700">
+                    <h4 class="text-3xl font-extrabold text-center mb-10 text-black dark:text-white">
+                        Musico Multi-Instrumentista
+                    </h4>
+                    
+                    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 justify-center">
+                        
+                        <div class="instrument-badge">
+                            <i class="fas fa-guitar text-4xl text-cyan-500"></i>
+                            <span class="mt-2 font-semibold">Guitarra</span>
+                        </div>
+                        
+                        <div class="instrument-badge">
+                            <i class="fas fa-drum text-4xl text-indigo-500"></i>
+                            <span class="mt-2 font-semibold">Bajo Eléctrico</span>
+                        </div>
+                        
+                        <div class="instrument-badge">
+                            <i class="fas fa-compact-disc text-4xl text-purple-500"></i>
+                            <span class="mt-2 font-semibold">Teclado / Piano</span>
+                        </div>
+                        
+                        <div class="instrument-badge">
+                            <i class="fas fa-music text-4xl text-yellow-500"></i>
+                            <span class="mt-2 font-semibold">Acordeón</span>
+                        </div>
+                        
+                        <div class="instrument-badge">
+                            <i class="fas fa-leaf text-4xl text-green-500"></i>
+                            <span class="mt-2 font-semibold">Ukelele</span>
+                        </div>
+
+                        <div class="instrument-badge">
+                            <i class="fas fa-microphone-alt text-4xl text-pink-500"></i>
+                            <span class="mt-2 font-semibold">Canto / Voz</span>
+                        </div>
+
+                        <div class="instrument-badge">
+                            <i class="fas fa-hand-rock text-4xl text-red-600"></i>
+                            <span class="mt-2 font-semibold">Percusión</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-16 pt-10 border-t border-gray-200 dark:border-gray-700">
+        <h4 class="text-3xl font-extrabold text-center mb-10 text-black dark:text-white">
+            Composición: Estructura, Creatividad y Disciplina
+        </h4>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 justify-center max-w-6xl mx-auto">
+            
+            <div class="composition-card">
+                <i class="fas fa-sitemap text-3xl text-cyan-500 mb-3"></i>
+                <h5 class="text-xl font-bold mb-3 dark:text-white">Arquitectura Estructural</h5>
+                <p class="text-gray-700 dark:text-gray-400 text-sm">
+                    Diseño la composición completa (introducción, desarrollo, clímax) antes de escribir el detalle, una metodología clave para la **arquitectura de software** robusta.
+                </p>
+            </div>
+            
+            <div class="composition-card">
+                <i class="fas fa-users-cog text-3xl text-yellow-500 mb-3"></i>
+                <h5 class="text-xl font-bold mb-3 dark:text-white">Armonía y Cohesión</h5>
+                <p class="text-gray-700 dark:text-gray-400 text-sm">
+                    Capacidad de arreglar instrumentos para que suenen bien juntos, similar a integrar múltiples **módulos o APIs** en un sistema complejo sin conflictos.
+                </p>
+            </div>
+            
+            <div class="composition-card">
+                <i class="fas fa-drafting-compass text-3xl text-pink-500 mb-3"></i>
+                <h5 class="text-xl font-bold mb-3 dark:text-white">Gestión End-to-End</h5>
+                <p class="text-gray-700 dark:text-gray-400 text-sm">
+                    Manejo el proyecto desde la idea (concepto) hasta el máster (despliegue), demostrando competencia en la **gestión de ciclos de vida completos del proyecto**.
+                </p>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="max-w-6xl mx-auto pt-16 mt-16 border-t border-gray-200 dark:border-gray-700">
+        <h3 class="text-2xl font-bold text-center mb-8 text-black dark:text-white">Mi Impacto en Números</h3>
+        
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            
+            <div class="stat-box">
+                <p class="text-5xl font-extrabold text-cyan-400">12+</p>
+                <p class="text-gray-700 dark:text-gray-300 mt-1">Años de música</p>
+            </div>
+            
+            <div class="stat-box">
+                <p class="text-5xl font-extrabold text-cyan-400">3+</p>
+                <p class="text-gray-700 dark:text-gray-300 mt-1">Agrupaciones</p>
+            </div>
+            
+            <div class="stat-box">
+                <p class="text-5xl font-extrabold text-cyan-400">90%</p>
+                <p class="text-gray-700 dark:text-gray-300 mt-1">Éxito en Cumplimiento</p>
+            </div>
+            
+            <div class="stat-box">
+                <p class="text-5xl font-extrabold text-cyan-400">7</p>
+                <p class="text-gray-700 dark:text-gray-300 mt-1">Instruentos</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="max-w-6xl mx-auto pt-16">
+        <div class="bg-indigo-600/10 dark:bg-indigo-600/10 p-8 rounded-lg flex flex-col md:flex-row items-center justify-between shadow-xl">
+            <p class="text-xl font-semibold text-indigo-700 dark:text-indigo-400 mb-4 md:mb-0">
+                ¿Listo para colaborar en código o componer algo nuevo?
+            </p>
+            <a href="/contacto.html" 
+               class="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 transition rounded-xl text-white text-md font-medium shadow-lg flex items-center">
+                Contactar Ahora <i class="fas fa-paper-plane ml-2"></i>
+            </a>
+        </div>
+    </div>
+
+</section>
+  </body>
+</html>

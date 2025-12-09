@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio || Manuel Díaz</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <!-- Tailwind CDN -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<!-- BODY -->
+<body class="font-sans bg-white dark:bg-[#0d0d0d] text-black dark:text-white transition-colors duration-300 overflow-auto">
+<!-- HEADER -->
+  <header class="fixed top-0 left-0 w-full backdrop-blur-xl bg-white/60 dark:bg-black/40 shadow-sm z-50 transition-all duration-300">
+    <nav class="max-w-6xl mx-auto flex items-center justify-between py-4 px-6">
+      <div class="flex items-center cursor-pointer hover:scale-105 transition-transform duration-300">
+        <h1 class="text-2xl font-bold">
+          Manuel<span class="text-cyan-400">Dev</span>
+        </h1>
+        <i class="fas fa-code text-white text-2xl ml-2"></i>
+      </div>
+          <ul class="hidden md:flex gap-8 text-lg font-medium">
+            <li><a href="/sobre-mi.html" class="link">Sobre Mí</a></li>
+            <li><a href="/habilidades.html" class="link">Habilidades</a></li>
+            <li><a href="/musico.html" class="link">Músico</a></li>
+          </ul>
+  </header>
+<section id="contacto" class="w-full py-20 px-6 bg-gray-50 dark:bg-[#111111]">
+    <div class="max-w-6xl mx-auto" data-aos="fade-up">
+        
+        <h2 class="text-4xl font-extrabold text-center mb-4 text-black dark:text-white">
+            Hablemos <span class="text-cyan-400">de tu Proyecto</span>
+        </h2>
+        <p class="text-xl text-center text-gray-700 dark:text-gray-300 mb-12">
+            Estoy disponible para nuevos desafíos, colaboraciones o consultas sobre código.
+        </p>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+
+            <div class="lg:col-span-2 bg-white dark:bg-[#1a1a1a] p-8 rounded-xl shadow-2xl border-t-4 border-cyan-500">
+                <form action="[TU_ENDPOINT_DE_FORMULARIO]" method="POST" class="space-y-6">
+                    <h3 class="text-2xl font-bold dark:text-white mb-6">Envíame un Mensaje</h3>
+
+                    <div>
+                        <label for="nombre" class="input-label">Nombre Completo</label>
+                        <input type="text" id="nombre" name="nombre" required class="input-field" placeholder="Tu nombre"/>
+                    </div>
+
+                    <div>
+                        <label for="email" class="input-label">Correo Electrónico</label>
+                        <input type="email" id="email" name="email" required class="input-field" placeholder="ejemplo@dominio.com"/>
+                    </div>
+
+                    <div>
+                        <label for="mensaje" class="input-label">Tu Mensaje / Consulta</label>
+                        <textarea id="mensaje" name="mensaje" required rows="5" class="input-field" placeholder="Descríbeme tu proyecto o pregunta."></textarea>
+                    </div>
+
+                    <button type="submit" class="w-full py-3 bg-cyan-500 hover:bg-cyan-600 transition rounded-lg text-white text-lg font-semibold shadow-md shadow-cyan-500/30 flex items-center justify-center">
+                        Enviar Mensaje <i class="fas fa-paper-plane ml-2"></i>
+                    </button>
+                </form>
+            </div>
+
+            <div class="lg:col-span-1 space-y-8 p-6">
+                
+                <div class="contact-info-box">
+                    <i class="fas fa-envelope text-3xl text-cyan-500"></i>
+                    <div>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Email Directo</p>
+                        <a href="mailto:tunombre@ejemplo.com" class="text-lg font-semibold dark:text-white hover:text-cyan-500 transition">
+                            manuel10df.jr@outlook.com
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-info-box">
+                    <i class="fas fa-map-marker-alt text-3xl text-cyan-500"></i>
+                    <div>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Ubicación Actual</p>
+                        <p class="text-lg font-semibold dark:text-white">San Pedro, Coah.</p>
+                    </div>
+                </div>
+
+                <div class="contact-info-box">
+                    <i class="fab fa-linkedin text-3xl text-cyan-500"></i>
+                    <div>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Perfil Profesional</p>
+                        <a href="[URL_LINKEDIN]" target="_blank" class="text-lg font-semibold dark:text-white hover:text-cyan-500 transition">
+                            Juan Manuel Díaz Flores
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center pt-8 border-t border-gray-200 dark:border-gray-800">
+            <a href="/index.html" class="inline-flex items-center text-lg font-medium text-gray-600 dark:text-gray-400 hover:text-cyan-500 dark:hover:text-cyan-400 transition-colors duration-300 group">
+                <i class="fas fa-house mr-2 transition-transform group-hover:-translate-y-1"></i>
+                Volver al Inicio
+            </a>
+        </div>
+    </div>
+</section>
+<script src="/js/main.js"></script>
+  </body>
+</html>
